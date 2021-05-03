@@ -51,7 +51,6 @@ func testRequestForObjectiveCURLRaisesFatalError() throws {
 }
 ```
 
-
 ## Installation
 
 ### CocoaPods
@@ -69,7 +68,7 @@ Once you have your Swift package set up, adding `TestableAssertions` as a depend
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "1.0.0"))
+  .package(url: "https://github.com/kuanfajardo/TestableAssertions.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
@@ -137,5 +136,3 @@ class SecureRequestTests: XCTestCase {
 
 Since `fatalError` and `preconditionFailure` have `Never` return types, the shadow implementations of these methods must indefinitely block the thread they are called. To solve this, `XCTAssertFatalError` and `XCTAssertPreconditionFailure` execute the given code *asynchronously* on queue that is not the main queue. By default, the global queue with `.userInitiated` QoS is used, and the assertions methods will
 wait for 2 seconds for the async execution of the code block to complete. You can override these default values by passing in your own values to the `queue` and `timeout` parameters of the assertion methods, respectively. 
-
-
