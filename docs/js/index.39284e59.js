@@ -1266,6 +1266,10 @@
                   name: "server-error",
                   params: [r.path]
               })
+              console.log(e.route)
+              console.log(e.path)
+              console.log(i)
+              console.log(t)
           })), window.addEventListener("unload", ce), t
       }
       r["default"].use(Y), r["default"].use(n["a"]), new r["default"]({
