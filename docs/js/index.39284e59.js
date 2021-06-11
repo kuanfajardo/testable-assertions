@@ -1062,7 +1062,7 @@
                           return n = t.name, o = t.query, c = t.hash, a = n.includes(Q["a"]), h = !!o.changes, s = a && h ? z : 0, u = z + s, l = "ide" === Object({
                               NODE_ENV: "production",
                               VUE_APP_TITLE: "Documentation",
-                              BASE_URL: "/testable-assertions"
+                              BASE_URL: "/testable-assertions/"
                           }).VUE_APP_TARGET ? 0 : u, e.abrupt("return", {
                               selector: Object(Z["b"])(c),
                               offset: {
@@ -1208,7 +1208,7 @@
                   return Promise.all([i.e("documentation-topic~topic~tutorials-overview"), i.e("topic")]).then(i.bind(null, "3213"))
               }
           }, {
-              path: "/documentation/*",
+              path: "/*",
               name: Q["a"],
               component: function() {
                   return Promise.all([i.e("documentation-topic~topic~tutorials-overview"), i.e("documentation-topic")]).then(i.bind(null, "f8ac"))
