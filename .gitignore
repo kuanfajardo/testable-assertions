@@ -9,3 +9,8 @@
 # Xcode
 /*.xcodeproj
 xcuserdata/
+
+# Firebase
+/.firebase
+/.firebaserc
+/*.log

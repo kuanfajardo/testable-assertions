@@ -1,13 +1,15 @@
-# ````
+# ``TestableAssertions``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+This is a summary!
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+This is an overview
 
 ## Topics
 
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
+### The things
 
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+- ``fatalError(_:file:line:)``
+- ``precondition(_:_:file:line:)``
+- ``preconditionFailure(_:file:line:)``

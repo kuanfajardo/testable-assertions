@@ -1,0 +1,33 @@
+{
+  "hosting": {
+    "public": "public/TestableAssertions.doccarchive",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "trailingSlash": true,
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/documentation/",
+        "type": 301
+      },
+      {
+        "regex": "/tutorials/?",
+        "destination": "/documentation/",
+        "type": 301
+      }
+    ],
+    "rewrites": [
+      {
+        "regex": "/documentation/",
+        "destination": "/index.html"
+      },
+      {
+        "regex": "/data/documentation.json",
+        "destination": "/data/documentation/testableassertions.json"
+      }
+    ]
+  }
+}
