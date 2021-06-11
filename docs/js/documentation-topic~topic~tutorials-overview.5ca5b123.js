@@ -1453,7 +1453,7 @@
 
           function R(e) {
               var t = e.replace(/\/$/, "");
-              return "".concat("/", "data").concat(t, ".json")
+              return "".concat("/testable-assertions/", "data").concat(t, ".json")
           }
 
           function L(e, t, n) {
